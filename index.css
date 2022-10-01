@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body>#bg{
+                height: 100%;
+                width: 100%;
+                background-color: antiquewhite;
+                clip-path: polygon(10% 11%, 90% 11%, 91% 89%, 10% 88%);
+                position: absolute;
+                z-index: -1;
+                font-style:[Fraunces](https://fonts.google.com/specimen/Fraunces);
+                font-family:https://fonts.google.com/specimen/Fraunces;
+         }
+
+
+#call{
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight:700;
+    
+
+}
+#cell{
+    font-family: sans-serif;
+    font-size: x-small;
+    line-height: 20px;
+    font-weight: 600;
+}
+#green{
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: Fraunces;
+}
+.formbox{
+    margin: 5px;
+    text-align: auto;
+    width: 530px;
+    height: 450px;
+    background-color: azure;
+    border-radius: 30px;
+}
+.div1{
+    width: 60%;
+    float: left;
+    transform: translateX(-10px);
+}
+.adjust{
+    width: 80%;
+    float: right; 
+    transform: translateY(-1500px);  
+}
+#pos{
+   border-radius: 30px;
+}
+#line{
+    font-family: sans-serif;
+}
+.green
+{
+    background-color: rgb(15, 53, 15);
+      color: whitesmoke;
+      font-weight: 300;
+      width: 200px;
+      font-size: medium;
+      height: 50px ;
+      border-radius: 30px;
+      cursor: pointer;
+}
+.green:hover{
+    background-color: rgb(28, 239, 28);
+}
+.move{
+    text-align: center;
+    transform: translateX(500px);
+    position: relative;
+}
